@@ -6,7 +6,7 @@ About Me
 
 
 I am a seasoned traditional network engineer with extensive experience working with CLI. Currently, I am transitioning into network automation, driven by curiosity and a passion for continuous learning.
-As a beginner in automation, I have started hands-on practice to build practical skills and gain real-world experience in this evolving field.
+As a beginner in automation, I have started hands-on practice to build practical skills and gain real-world experience in this evolving field. To be honest, AI and internet resources will be my teachers, guiding me along this path.
 
 📌 About This Repository
 
