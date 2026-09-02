@@ -1,0 +1,18 @@
+# 1. Install GnuPG (key management system)
+sudo apt update && sudo apt install -y pass gnupg
+
+# 2. Generate a GPG key (follow prompts)
+gpg --full-generate-key
+# → Choose: RSA/RSA, 2048-bit, no expiry
+# → Enter name, email, set a strong passphrase
+
+# 3. Get your GPG key ID
+gpg --list-keys
+# Look for: pub   rsa2048/XXXXXXXX YYYY-MM-DD ...
+
+# 4. Initialize password store
+pass init "YOUR_GPG_KEY_ID"   # use email or ID from above
+
+# 5. Optional: enable git for backup/sync
+pass git init
+
