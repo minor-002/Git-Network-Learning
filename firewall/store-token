@@ -13,6 +13,22 @@ gpg --list-keys
 # 4. Initialize password store
 pass init "YOUR_GPG_KEY_ID"   # use email or ID from above
 
-# 5. Optional: enable git for backup/sync
+# 5. OPTIONAL: enable git for backup/sync
 pass git init
 
+
+#TO FIX WSL CAN'T POP UP GUI PASSWORD PROMPTS:
+# Add to gpg.conf
+echo "use-agent" >> ~/.gnupg/gpg.conf
+echo "pinentry-mode loopback" >> ~/.gnupg/gpg.conf
+
+# Create/update agent config
+echo "allow-loopback-pinentry" >> ~/.gnupg/gpg-agent.conf
+
+# Install pinentry-tty (password prompt in terminal)
+sudo apt install -y pinentry-tty
+echo "pinentry-program /usr/bin/pinentry-tty" >> ~/.gnupg/gpg-agent.conf
+
+# Restart GPG agent
+gpgconf --kill gpg-agent
+gpgconf --launch gpg-agent
