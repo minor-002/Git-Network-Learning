@@ -1,0 +1,1 @@
+Install pass system-wide (needs sudo for apt), but never use sudo when creating keys or using pass — your keys belong to your user account, not root. If you sudo gpg, keys go to root and you can't access them as your normal user.
