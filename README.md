@@ -8,6 +8,9 @@ About Me
 I am a seasoned traditional network engineer with extensive experience working with CLI. Currently, I am transitioning into network automation, driven by curiosity and a passion for continuous learning.
 As a beginner in automation, I have started hands-on practice to build practical skills and gain real-world experience in this evolving field. To be honest, AI and internet resources will be my teachers, guiding me along this path.
 
+## Disclaimer
+The content in this repository is provided for learning and reference purposes only. Any scripts, configurations, or automation workflows should be reviewed and tested in a lab environment before being used in production. Use of this content is at your own risk.
+
 📌 About This Repository
 
 This is my first repository as I begin my journey into network automation. It serves as:
