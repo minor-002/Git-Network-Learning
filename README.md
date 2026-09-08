@@ -9,7 +9,11 @@ I am a seasoned traditional network engineer with extensive experience working w
 As a beginner in automation, I have started hands-on practice to build practical skills and gain real-world experience in this evolving field. To be honest, AI and internet resources will be my teachers, guiding me along this path.
 
 ## Disclaimer
-The content in this repository is provided for learning and reference purposes only. Any scripts, configurations, or automation workflows should be reviewed and tested in a lab environment before being used in production. Use of this content is at your own risk.
+This repository documents my personal Network Automation learning journey and contains various notes, scripts, configurations, templates, and lab exercises organized across multiple folders.
+The content is shared for educational and reference purposes only. As I continue to learn and explore new technologies, some implementations may not represent production-ready solutions or industry best practices.
+Any scripts, configurations, or procedures should be thoroughly reviewed, tested, and validated in a lab or non-production environment before being implemented in a live network.
+The use of any content in this repository is entirely at your own risk. I am not responsible for any service disruption, security incidents, data loss, or other issues resulting from the use or misuse of the information provided.
+
 
 📌 About This Repository
 
