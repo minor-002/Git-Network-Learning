@@ -13,11 +13,8 @@ This repository serves as a record of that journey, documenting my progress, les
 
 ## Disclaimer
 This repository documents my personal Network Automation learning journey and contains various notes, scripts, configurations, templates, and lab exercises organized across multiple folders.
-
 The content is shared for educational and reference purposes only. As I continue to learn and explore new technologies, some implementations may not represent production-ready solutions or follow industry best practices.
-
 Any scripts, configurations, automation workflows, or procedures should be thoroughly reviewed, tested, and validated in a lab or non-production environment before being implemented in a live network.
-
 The use of any content in this repository is entirely at your own risk. I am not responsible for any service disruption, security incidents, data loss, financial loss, or other issues resulting from the use or misuse of the information provided.
 
 
