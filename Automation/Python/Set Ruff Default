@@ -1,0 +1,12 @@
+# Please review and implement the following configuration at your own discretion and responsibility.
+# Configure Ruff as the default automated checker and formatter in VS Code:
+
+{
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": true,
+      "source.organizeImports.ruff": true
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
+}
