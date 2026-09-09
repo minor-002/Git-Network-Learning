@@ -3,6 +3,7 @@ This script updates an IP allow list during firewall migration. It reads your al
 
 
 Create a file named allow_list.txt in the same folder as your Python script, and paste this content:
+
 #Allowed IP Address List - Firewall Migration
 #Format: One IP or CIDR range per line
 
@@ -17,7 +18,7 @@ Create a file named allow_list.txt in the same folder as your Python script, and
 203.0.113.5
 203.0.113.10
 
-# End of list
+#End of list
 
 ## Open the file that contains the allow list
     # Open the allow list file
