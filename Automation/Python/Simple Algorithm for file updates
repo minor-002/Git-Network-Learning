@@ -1,6 +1,5 @@
 ## Project description
 This script updates an IP allow list during firewall migration. It reads your allow list file, removes any IPs you specify, and saves the updated list back. It's straightforward, easy to follow, and perfect for learning.
-
 Create a file named allow_list.txt in the same folder as your Python script, and paste this content:
 
 #Allowed IP Address List - Firewall Migration
